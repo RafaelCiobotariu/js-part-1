@@ -1,4 +1,7 @@
-
+alert(
+  'Hello.  This is a "Rock, paper, scissors" game. You will have to select the one of the choices above and after that, the computer will give one random answer, from the choices above. '
+);
+function playerPlay() {
   let playerChoice = prompt('insert a value from "rock" "paper" "scissors"');
   let exitGame;
   if (playerChoice == null) {
