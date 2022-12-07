@@ -94,7 +94,7 @@ function game(numberOfRunds) {
   let playerScore = 0,
     computerScore = 0;
   if (gameRunning !== 0) {
-    for (let i = 0; i < numberOfRunds; i++) {
+    for (let i = 1; i <= numberOfRunds; i++) {
       console.log(`Round ${i}:`);
       let gameResult = playRound(playerPlay(), computerPlay());
       if (gameResult === "Player won!") {
